@@ -6,7 +6,7 @@
 Summary:	A Ruby parser written in pure Ruby
 Name:		ruby-%{pkgname}
 Version:	2.1.4
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
