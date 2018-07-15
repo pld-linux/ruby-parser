@@ -6,7 +6,7 @@
 Summary:	A Ruby parser written in pure Ruby
 Name:		ruby-%{pkgname}
 Version:	2.5.1.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
@@ -36,11 +36,6 @@ BuildRequires:	ruby-simplecov >= 0.7
 BuildRequires:	ruby-simplecov-sublime-ruby-coverage
 BuildRequires:	ruby-yard
 %endif
-Requires:	ruby-ast < 2
-Requires:	ruby-ast >= 1.1
-Requires:	ruby-slop < 4
-Requires:	ruby-slop >= 3.4
-Requires:	ruby-slop >= 3.4.5
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
