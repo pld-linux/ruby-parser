@@ -5,12 +5,12 @@
 %define	pkgname	parser
 Summary:	A Ruby parser written in pure Ruby
 Name:		ruby-%{pkgname}
-Version:	2.1.4
-Release:	2
+Version:	2.5.1.2
+Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{pkgname}-%{version}.gem
-# Source0-md5:	6a4456d4e0169dba6e251f075e55c94d
+# Source0-md5:	f94bfd2b3efeabb109ad86a6210a0140
 URL:		http://github.com/whitequark/parser
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
